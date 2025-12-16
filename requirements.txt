@@ -1,0 +1,41 @@
+# Core LangChain packages (Python 3.10 compatible)
+langchain==0.3.14
+langchain-core==0.3.29
+langchain-community==0.3.14
+langchain-groq==0.2.1
+
+# Search and API tools
+tavily-python==0.5.0
+
+# HTTP requests
+requests==2.32.3
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Data validation (Python 3.10 compatible)
+pydantic>=2.0.0,<3.0.0
+pydantic-core>=2.0.0
+
+# Web framework (optional - for API)
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+
+# Streamlit UI (Python 3.10 compatible)
+streamlit==1.32.0
+
+# Additional utilities
+typing-extensions>=4.5.0
+annotated-types>=0.4.0
+
+# Runtime dependencies
+anyio>=3.5.0,<5.0.0
+httpx>=0.24.0
+tenacity>=8.1.0
+jsonpatch>=1.33
+PyYAML>=5.3
+SQLAlchemy>=2.0.0,<3.0.0
+
+# For Python 3.10 compatibility
+importlib-metadata>=6.0.0; python_version < "3.11"
